@@ -12,7 +12,7 @@ export default function MealsPage () {
             </p>
         </header>
         <main className={classes.main}>
-            <MealsGrid meals={[]} />
+            <MealsGrid meals={meals} />
         </main>
         </>
     )
